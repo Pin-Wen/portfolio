@@ -1,28 +1,48 @@
 #square {
-	color: red;
 	height: 20px;
-	padding-right: 10px;
-	padding-left: 0px;
-	margin: 0px 0px 10px 0px;
+	padding: 20px 20px 50px 20px;
+	margin: 10px 10px;
+	border-style: dashed;
 	}
 
-a {
+.active {
+	background-color: #f3f3f3;
+	}
+
+.border {
+	border-style: dashed;
+	}
+
+nav a {
+	color: red;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 16px;
 	text-decoration: none;
+	}
+
+a:hover{
+	background-color: #111;
 	}
 
 img {
 	border-radius: 5%;
+	margin: 10px 65px;
 	}
 
 h1 {
 	font-size: 50px;
 	margin: 5px;
+	padding-left: 10px;
 	}
 
 h3 {
 	color: red;
 	}
 
-html {
-	font-family: verdana;
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: lightblue;
+	padding: 20px;
 	}
